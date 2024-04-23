@@ -1,0 +1,151 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+body{
+    background-color: whitesmoke;
+}
+
+/* estilos de header */
+header {
+    background-color: #C2D3F6;
+    margin: 0px 50px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+header img{
+    width: 25%;
+}
+
+
+header nav ul  {
+    list-style: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    gap: 70px;
+
+}
+
+
+/* mq de movile */
+
+main .div-uno{
+    display: flex;
+    justify-content: center;
+}
+
+main .div-uno img{
+    margin-top: 50px;
+    width: 70%;
+}
+
+
+
+.productos .img-uno, .img-cinco, .img-tres{
+    display: none;
+}
+
+
+.productos div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    border-radius: 20%;
+}
+
+.productos{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 25%);
+    gap: 30px;
+    margin: 30px 20px;
+    align-content: center;
+}
+
+
+/* mq de desktop */
+
+@media screen and (min-width: 1024px) {
+
+    main .div-uno{
+        display: flex;
+        justify-content: center;
+    }
+    
+    main .div-uno img{
+        margin-top: 50px;
+        width: 25%;
+    
+    }
+    
+}
+
+/* estilos de main */
+
+main h1{
+    text-align: center;
+    color: #0072E1;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+main h1:hover{
+    color: #C2D3F6;
+}
+
+
+
+main p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.nosotros div{
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros div img{
+    width: 50%;
+}
+
+.nosotros .nosotros-d {
+    margin-bottom: 50px;
+}
+
+.ubicacion{
+    margin: 30px 30px 50px 50px;
+}
+
+/* estilo de footer */
+
+footer{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 650;
+}
+
+footer:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
