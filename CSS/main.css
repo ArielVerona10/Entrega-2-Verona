@@ -1,0 +1,51 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+
+
+/* estilos de header */
+header {
+    background-color: #C2D3F6;
+    margin: 10px 50px;
+    padding: 10px 30px;
+    display: flex;
+    
+
+}
+
+header .bg-c{
+    background-color: #C2D3F6;
+}
+
+header .menu-color:hover{
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+header img{
+    width: 25%;
+}
+
+
+header nav ul  {
+    list-style: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    gap: 150px;
+
+}
+
+
