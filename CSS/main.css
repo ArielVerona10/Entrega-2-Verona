@@ -1,51 +1,17 @@
-/* reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Error: expected more input.
+ *   ,
+ * 1 | @import 
+ *   |         ^
+ *   '
+ *   scss\styles.scss 1:9  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected more input.\a   \2577 \a 1 \2502  @import \a   \2502          ^\a   \2575 \a   scss\\styles.scss 1:9  root stylesheet";
 }
-
-/* estilos generales */
-
-
-
-/* estilos de header */
-header {
-    background-color: #C2D3F6;
-    margin: 10px 50px;
-    padding: 10px 30px;
-    display: flex;
-    
-
-}
-
-header .bg-c{
-    background-color: #C2D3F6;
-}
-
-header .menu-color:hover{
-    background-color: blanchedalmond;
-}
-
-
-
-
-
-
-header img{
-    width: 25%;
-}
-
-
-header nav ul  {
-    list-style: none;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    font-weight: 500;
-    text-transform: capitalize;
-    display: flex;
-    gap: 150px;
-
-}
-
-
