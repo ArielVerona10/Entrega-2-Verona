@@ -67,14 +67,27 @@ footer:hover {
 
 @media screen and (min-width: 600px) {
   header {
-    background-color: rgb(137, 199, 178);
+    background-color: #89C7B2;
   }
   .init .div-uno img {
     width: 50%;
   }
+  .init .div-dos .p-uno {
+    background-color: #89C7B2;
+    background-color: rgb(39, 92, 207);
+    color: blanchedalmond;
+    padding: 0px 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
   .init .div-dos .p-dos {
     display: block;
     text-align: center;
+    background-color: #C2D3F6;
+    padding: 0px 75px;
+    margin-left: 75px;
+    margin-right: 75px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -84,6 +97,16 @@ footer:hover {
   .init .div-uno img {
     width: 50%;
   }
+  .init .div-dos .p-uno {
+    background-color: rgb(39, 92, 207);
+    padding: 0px 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .init .div-dos .p-dos {
+    background-color: #89C7B2;
+  }
   .init .div-dos .p-tres {
     display: block;
     text-align: center;
@@ -91,6 +114,42 @@ footer:hover {
     padding: 0px 50px;
     margin-left: 50px;
     margin-right: 50px;
+  }
+}
+.nosotros .d-nosotros .d-img {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.nosotros .d-nosotros .d-img img {
+  width: 90%;
+}
+.nosotros .d-nosotros .nosotros-p {
+  background-color: gainsboro;
+  margin: 50px 20px 100px 20px;
+  padding: 0px 30px;
+  font-size: 20px;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+}
+.nosotros .d-nosotros .nosotros-p h2, .nosotros .d-nosotros .nosotros-p .p-dos {
+  display: none;
+}
+
+@media screen and (min-width: 601px) {
+  .nosotros .d-nostros .d-img img {
+    display: none;
+    width: 10%;
+  }
+  .nosotros .d-nostros .nosotros-p .p-dos {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nosotros .d-nosotros .d-img img {
+    display: none;
+    width: 65%;
   }
 }
 

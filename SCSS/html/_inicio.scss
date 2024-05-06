@@ -21,22 +21,37 @@
 }
 
 @media screen and (min-width: 600px) {
-    header {background-color: rgb(137, 199, 178);}
+    header {background-color: #89C7B2;}
 
     .init{
         .div-uno{
             img{
                 width: 50%;
+                
             }
         }
         .div-dos{
+            .p-uno{
+                background-color: #89C7B2;
+                background-color: rgb(39, 92, 207);
+                color: $color-secundario;
+                padding: 0px 100px;
+                margin-top: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
             .p-dos{
                 display: block;
                 text-align: center;
+                background-color: $color-principal;
+                padding: 0px 75px;
+                margin-left: 75px;
+                margin-right: 75px;
             }
             
         }
     }
+    
 }
 
 
@@ -51,6 +66,16 @@
             }
         }
         .div-dos{
+            .p-uno{
+                background-color: rgb(39, 92, 207);
+                padding: 0px 100px;
+                margin-top: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .p-dos{
+                background-color: #89C7B2;
+            }
             .p-tres{
                 display: block;
                 text-align: center;
