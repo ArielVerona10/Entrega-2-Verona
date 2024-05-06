@@ -1,0 +1,64 @@
+.init{
+    .div-uno{
+        img{
+            margin-top: 50px;
+            width: 70%;
+        }
+        @include flex
+        
+    }
+    .div-dos{
+        p{
+            margin-top: 20px;
+            margin-bottom: 100px;
+            @include flex
+        }
+        .p-dos, .p-tres{
+            display: none;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+    header {background-color: rgb(137, 199, 178);}
+
+    .init{
+        .div-uno{
+            img{
+                width: 50%;
+            }
+        }
+        .div-dos{
+            .p-dos{
+                display: block;
+                text-align: center;
+            }
+            
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    header {
+        background-color: rgb(39, 92, 207);
+    }
+    .init{
+        .div-uno{
+            img{
+                width: 50%;
+            }
+        }
+        .div-dos{
+            .p-tres{
+                display: block;
+                text-align: center;
+                background-color: $color-principal;
+                padding: 0px 50px;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+        }
+    }
+}
