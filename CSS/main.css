@@ -137,10 +137,9 @@ footer:hover {
   display: none;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 600px) {
   .nosotros .d-nostros .d-img img {
-    display: none;
-    width: 10%;
+    width: 50%;
   }
   .nosotros .d-nostros .nosotros-p .p-dos {
     display: block;
@@ -148,7 +147,6 @@ footer:hover {
 }
 @media screen and (min-width: 1024px) {
   .nosotros .d-nosotros .d-img img {
-    display: none;
     width: 65%;
   }
 }
